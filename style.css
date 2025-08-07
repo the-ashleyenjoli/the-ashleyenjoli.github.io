@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff9fb;
+    color: #3a2a2a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #ffe0ec, #fce4ec);
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 2px solid #f8c9db;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #cc3366;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #5f3a44;
+    margin-top: 10px;
+}
+
+.about, .projects, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2, .projects h2, .contact h2 {
+    font-size: 1.8em;
+    color: #b03060;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1em;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #4d2e2e;
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ffdce5;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.project-card h3 {
+    color: #cc3366;
+    margin-bottom: 10px;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #b03060;
+    font-weight: bold;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #f9c2d3;
+    font-size: 1em;
+}
+
+button {
+    background-color: #ff80aa;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6699;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff0f5;
+    color: #555;
+    font-size: 0.9em;
+}
